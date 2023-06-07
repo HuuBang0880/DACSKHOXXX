@@ -22,7 +22,9 @@ export default function Home() {
               học Đà Lạt có thế mạnh đào tạo nhóm ngành luật học,công nghệ, sinh
               học, nông nghiệp và du lịch.[2] Đồng thời cũng là trung tâm nghiên
               cứu khoa học và chuyển giao công nghệ lớn của Miền Trung Việt Nam.
+              <button >Read More</button>
             </p>
+            
             <img
               src={images.introimg}
               alt="Img"

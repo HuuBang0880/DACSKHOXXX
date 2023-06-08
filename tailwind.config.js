@@ -8,6 +8,7 @@ module.exports = {
         content: "#EFF3F5",
         bgcontent: "#F2FFF8",
       },
+      
     },
   },
   plugins: [],

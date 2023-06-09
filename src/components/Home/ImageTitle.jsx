@@ -5,7 +5,7 @@ export default function ImageTitle({source}){
   return (
     <>
       
-      <div className='inline-block mx-6'>
+      <div className='inline-block m-8'>
         <img src={source} alt=""  className='w-[248px] h-[220px] duration-700 rounded-xl group-hover:scale-110'/>
         
       </div>

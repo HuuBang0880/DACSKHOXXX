@@ -1,18 +1,21 @@
 import React from "react";
+import images from "../../access/Images";
 import PostItem from "./PostItem";
 
 const data = [
   {
     id: 1,
-    image: "http://",
+    image: images.picAct1,
     shortDescription:
       "Khoa Ngữ văn và Lịch sử, Trường Đại học Đà Lạt kỷ niệm 40 năm thành lập",
+    url:""
   },
   {
     id: 2,
-    image: "http://",
+    image: images.picAct7,
     shortDescription:
-      "Khoa Ngữ văn và Lịch sử, Trường Đại học Đà Lạt kỷ niệm 40 năm thành lập",
+      "Đại học Đà Lạt là một trong những ngôi trường đẹp nhất Đông Nam Á",
+    url:"https://dalatreview.vn/su-that-ve-dai-hoc-da-lat.html"
   },
   {
     id: 3,

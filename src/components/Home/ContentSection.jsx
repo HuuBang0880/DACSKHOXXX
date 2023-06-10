@@ -1,5 +1,4 @@
 import React from "react";
-
 import images from "../../access/Images";
 import MainButtons from "./Buttons";
 
@@ -25,6 +24,37 @@ export default function ContentSection() {
               alt="Img"
               className=" px-3 mt-5 ml-4 max-w-full  min-w-[300px] h-[300px] rounded-3xl  "
             />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export function ContentAICSection() {
+  return (
+    <div className="bg-content h-[440px] ">
+      <div className=" container flex mx-auto drop-shadow-lg  ">
+        <div className="  mx-auto px-16 ">
+          <div className=" grid grid-cols-2 my-8 ">
+            <div>
+              <img
+                src={images.introimg2}
+                alt="Img"
+                className=" px-3 mt-5 ml-4 max-w-full  min-w-[300px] h-[300px] rounded-3xl  "
+              />
+            </div>
+            <div className=" ">
+              <h1 className="font-sans text-6xl">Trí tuệ nhân tạo </h1>
+              <h1 className="font-sans text-6xl pl-16">là tương lai công nghệ</h1>
+              <p className="mt-6 font-sans tracking-wider text-justify italic">
+                Trung tâm Giáo dục Đào tạo Trí tuệ nhân tạo đươc thành lập ngày
+                06/09/2021 theo Quyết định số 612/QĐ-ĐHĐL của Hiệu Trưởng trường
+                Đại học Đà Lạt, với sự hợp tác tài trợ của tập đoàn Liên Thái
+                Bình Dương (IPPG).
+              </p>
+              <MainButtons title={"Read More"} />
+            </div>
           </div>
         </div>
       </div>

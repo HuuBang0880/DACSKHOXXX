@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "../components/Layout/Slider/Slider";
 import PostSection from "../components/Home/PostSection";
-import ContentSection from "../components/Home/ContentSection";
+import ContentSection, { ContentAICSection } from "../components/Home/ContentSection";
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
       <Slider />
       <ContentSection />
       <PostSection />
-      <ContentSection />
+      <ContentAICSection />
     </div>
   );
 }

@@ -3,6 +3,7 @@ import images from "../../access/Images";
 import MainButtons from "./Buttons";
 
 export default function ContentSection() {
+
   return (
     <div className="bg-content h-[440px] ">
       <div className=" container flex mx-auto drop-shadow-lg  ">
@@ -17,7 +18,7 @@ export default function ContentSection() {
                 nguồn nhân lực trình độ cao về Khoa học tự nhiên và Công nghệ,
                 Khoa học xã hội và Nhân văn, và Kinh tế.
               </p>
-              <MainButtons title={"Read More"} />
+              <MainButtons title={"Read More"} path={"/about"} />
             </div>
             <img
               src={images.introimg}
@@ -46,14 +47,16 @@ export function ContentAICSection() {
             </div>
             <div className=" ">
               <h1 className="font-sans text-6xl">Trí tuệ nhân tạo </h1>
-              <h1 className="font-sans text-6xl pl-16">là tương lai công nghệ</h1>
+              <h1 className="font-sans text-6xl pl-16">
+                là tương lai công nghệ
+              </h1>
               <p className="mt-6 font-sans tracking-wider text-justify italic">
                 Trung tâm Giáo dục Đào tạo Trí tuệ nhân tạo đươc thành lập ngày
                 06/09/2021 theo Quyết định số 612/QĐ-ĐHĐL của Hiệu Trưởng trường
                 Đại học Đà Lạt, với sự hợp tác tài trợ của tập đoàn Liên Thái
                 Bình Dương (IPPG).
               </p>
-              <MainButtons title={"Read More"} />
+              <MainButtons title={"Read More"} path={"/aicabout"} />
             </div>
           </div>
         </div>

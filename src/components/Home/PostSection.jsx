@@ -8,44 +8,63 @@ const data = [
     image: images.picAct1,
     shortDescription:
       "Khoa Ngữ văn và Lịch sử, Trường Đại học Đà Lạt kỷ niệm 40 năm thành lập",
-    url:""
+    url: "",
   },
   {
     id: 2,
     image: images.picAct7,
     shortDescription:
       "Đại học Đà Lạt là một trong những ngôi trường đẹp nhất Đông Nam Á",
-    url:"https://dalatreview.vn/su-that-ve-dai-hoc-da-lat.html"
+    url: "https://dalatreview.vn/su-that-ve-dai-hoc-da-lat.html",
   },
   {
     id: 3,
-    image: "http://",
+    image: images.picAct2,
     shortDescription:
-      "Khoa Ngữ văn và Lịch sử, Trường Đại học Đà Lạt kỷ niệm 40 năm thành lập",
+      "Thầy Phạm Tiến Sơn trở thành giáo sư đầu tiên của Trường Đại học Đà Lạt",
   },
   {
     id: 4,
-    image: "http://",
+    image: images.picAct3,
     shortDescription:
-      "Khoa Ngữ văn và Lịch sử, Trường Đại học Đà Lạt kỷ niệm 40 năm thành lập",
+      "Đại học Đà Lạt Tọa đàm về thơ thiền trong dòng chảy văn hóa dân tộc",
   },
   {
-    id: 54,
-    image: "http://",
+    id: 5,
+    image: images.picAct4,
     shortDescription:
-      "Khoa Ngữ văn và Lịch sử, Trường Đại học Đà Lạt kỷ niệm 40 năm thành lập",
+      "Trường đại học Đà Lạt: 600 vận động viên tham gia hội thao sinh viên",
   },
   {
     id: 6,
-    image: "http://",
+    image: images.picAct5,
     shortDescription:
-      "Khoa Ngữ văn và Lịch sử, Trường Đại học Đà Lạt kỷ niệm 40 năm thành lập",
+      "Khoa Luật học Trường Đại học Đà Lạt: 20 năm hình thành và phát triển",
   },
+
   {
     id: 7,
-    image: "http://",
+    image: images.picAct6,
     shortDescription:
-      "Khoa Ngữ văn và Lịch sử, Trường Đại học Đà Lạt kỷ niệm 40 năm thành lập",
+      "Trường Đại học Đà Lạt đạt kiểm định chất lượng chương trình đào tạo 5 ngành mới",
+  },
+  {
+    id: 8,
+    image: images.picAct8,
+    shortDescription:
+      "Các trường đại học Hàn Quốc tìm hiểu hợp tác với Trường Đại học Đà Lạt",
+  },
+  {
+    id: 9,
+    image: images.picAct9,
+    shortDescription:
+      "Trường Đại học Đà Lạt có thêm một Phó Hiệu trưởng",
+  },
+  {
+    id: 10,
+    image: images.picAct10,
+    shortDescription:
+      "Tọa đàm đổi mới sáng tạo thời kỳ công nghiệp 4.0",
   },
 ];
 

@@ -7,7 +7,7 @@ const pages = [
     path: "/",
   },
   {
-    name: "Lịch sử & Thành tích",
+    name: "Giới thiệu",
     path: "/about",
   },
   {

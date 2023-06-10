@@ -1,7 +1,5 @@
 import React from "react";
 
-import images from "../../access/Images";
-
 export default function PostItem({ data }) {
   return (
     <div className="group relative mb-2.5 overflow-hidden bg-white">

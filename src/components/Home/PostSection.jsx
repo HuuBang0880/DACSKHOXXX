@@ -57,25 +57,33 @@ const data = [
   {
     id: 9,
     image: images.picAct9,
-    shortDescription:
-      "Trường Đại học Đà Lạt có thêm một Phó Hiệu trưởng",
+    shortDescription: "Trường Đại học Đà Lạt có thêm một Phó Hiệu trưởng",
   },
   {
     id: 10,
     image: images.picAct10,
-    shortDescription:
-      "Tọa đàm đổi mới sáng tạo thời kỳ công nghiệp 4.0",
+    shortDescription: "Tọa đàm đổi mới sáng tạo thời kỳ công nghiệp 4.0",
   },
 ];
 
 export default function PostSection() {
   return (
-    <div className="container mx-auto mt-16 mb-5">
-      <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-x-4 gap-y-2 my-auto">
-        {data.map((item) => {
-          return <PostItem key={item.id} data={item} />;
-        })}
+    <>
+      <div className="uppercase flex justify-center ">
+        <div className=" w-fit border-b-2 border-primary">
+          <h1 className="justify-center text-4xl font-bold text-primary inline-block  my-4">
+            Bài viết nổi bật
+          </h1>
+        </div>
       </div>
-    </div>
+
+      <div className="container mx-auto mt-12 mb-5">
+        <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-x-4 gap-y-2 my-auto">
+          {data.map((item) => {
+            return <PostItem key={item.id} data={item} />;
+          })}
+        </div>
+      </div>
+    </>
   );
 }

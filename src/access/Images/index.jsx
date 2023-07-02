@@ -22,6 +22,7 @@ const images = {
     picTuyenSinh2: require('./LIEN-THONG.png'),
     picTuyenSinh3: require('./z2354657943968_64fe3951232526e43276852677c6f29f-1.jpg'),
     picTuyenSinh4: require('./NGAN-HAN.png'),
+    picAI: require('./AI Center of Excellence_1920x525.jpg'),
 };
 
 

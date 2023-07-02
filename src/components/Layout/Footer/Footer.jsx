@@ -17,7 +17,7 @@ export default function Footer() {
   return (
     <footer className="flex flex-wrap bg-primary h-fit">
       <div className="w-full">
-        <ul className="flex justify-center my-5 pb-5 border-b">
+        <ul className="flex justify-center my-5 pb-5 border-b-2">
           <li className="mx-5">
             <a href="#">
               <BsFacebook size={24} color="#fff" />

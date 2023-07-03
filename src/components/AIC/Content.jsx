@@ -10,7 +10,7 @@ export default function Content() {
       <div>
         <img src={images.picAI} alt="" />
       </div>
-      <div className="container h-[440px] justify-center flex ">
+      <div className="container mx-auto h-[440px] justify-center flex ">
         <div className=" grid grid-cols-2">
           <div className="self-center">
             <div className=" w-fit border-b-2 border-primary ">
@@ -27,7 +27,7 @@ export default function Content() {
           </div>
 
           <div className="self-center animate-fade-in-left-1.5">
-            <div className="w-[600px] tracking-wider text-justify italic ">
+            <div className=" tracking-wider text-justify italic ">
               <p className="">
                 Trung tâm ra đời với sứ mệnh đưa Trí tuệ nhân tạo trở nên gần
                 gũi, thiết thực với cộng đồng, nhất là đối với học sinh, sinh
@@ -46,7 +46,7 @@ export default function Content() {
 export function ContentAbout() {
   return (
     <div className="bg-content">
-      <div className="container h-[840px] animate-fade-in-left-0.5">
+      <div className="container mx-auto h-[840px] animate-fade-in-left-0.5">
         <div className=" font-sans font-bold text-4xl text-center text-primary uppercase">
           <h1 className="pt-4">chức năng, nhiệm vụ của trung tâm</h1>
         </div>
@@ -61,9 +61,10 @@ export function ContentAbout() {
 export function ContentB() {
   return (
     <div className="">
-      <div className="container h-[640px] justify-center flex">
+      <div className="container mx-auto h-[640px] justify-center flex">
         <div className="grid grid-cols-2">
-          <div className="self-center">
+        
+        <div className="self-center">
             <div className=" w-fit border-b-2 border-primary ">
               <div className=" text-6xl mb-2 font-bold font-sans uppercase text-center ">
                 <h1>Vì sao phải chọn </h1>
@@ -77,7 +78,7 @@ export function ContentB() {
             </div>
           </div>
 
-          <div className="self-center w-[600px]">
+          <div className="self-center ">
             <ul>
               <li className="mt-4 font-sans italic tracking-wider">
                 <p>

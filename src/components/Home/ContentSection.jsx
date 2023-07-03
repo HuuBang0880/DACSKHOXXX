@@ -21,7 +21,7 @@ export default function ContentSection() {
     target.classList.add("opacity-1");
     observer.observe(target);
   });
-  return (
+  return ( 
     <div className="bg-content h-[440px]">
       <div className=" container flex mx-auto drop-shadow-lg js-show-on-scroll">
         <div className="  mx-auto px-16">

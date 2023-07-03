@@ -33,6 +33,19 @@ const images = {
     picHD07: require('./hoat-dong-7.jpg'),
     picHD08: require('./hoat-dong-8.jpg'),
     picHD09: require('./hoat-dong-9.jpg'),
+
+    picCampus1: require('./campus-DLU-1.png'),
+    picCampus2: require('./campus-DLU-2.jpg'),
+    picCampus3: require('./campus-DLU-3.jpg'),
+    picCampus4: require('./campus-DLU-4.jpg'),
+    picCampus5: require('./campus-DLU-5.jpg'),
+    picCampus6: require('./campus-DLU-6.jpg'),
+    picCampus7: require('./campus-DLU-7.jpg'),
+    picCampus8: require('./campus-DLU-8.jpg'),
+    picCampus9: require('./campus-DLU-9.jpg'),
+    picCampus10: require('./campus-DLU-10.jpg'),
+    picCampus11: require('./campus-DLU-11.jpg'),
+    
 };
 
 

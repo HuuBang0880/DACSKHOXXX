@@ -23,6 +23,16 @@ const images = {
     picTuyenSinh3: require('./z2354657943968_64fe3951232526e43276852677c6f29f-1.jpg'),
     picTuyenSinh4: require('./NGAN-HAN.png'),
     picAI: require('./AI Center of Excellence_1920x525.jpg'),
+    
+    picHD01: require('./hoat-dong-1.jpg'),
+    picHD02: require('./hoat-dong-2.jpg'),
+    picHD03: require('./hoat-dong-3.jpg'),
+    picHD04: require('./hoat-dong-4.jpg'),
+    picHD05: require('./hoat-dong-5.jpg'),
+    picHD06: require('./hoat-dong-6.jpg'),
+    picHD07: require('./hoat-dong-7.jpg'),
+    picHD08: require('./hoat-dong-8.jpg'),
+    picHD09: require('./hoat-dong-9.jpg'),
 };
 
 
